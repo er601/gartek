@@ -1,0 +1,9 @@
+version: "3"
+services:
+  regultek-build:
+    container_name: "regultek-build"
+    image: "node:14-alpine"
+    volumes:
+      - ./:/app
+    working_dir: /app
+    entrypoint: ./build_cont

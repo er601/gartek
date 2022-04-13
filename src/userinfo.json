@@ -1,0 +1,15 @@
+{
+  "sub":"1159877",
+  "pin":"20101199012345",
+  "citizenship":"KGZ",
+  "family_name":"Андреев",
+  "given_name":"Андрей",
+  "middle_name":"Андреевич",
+  "name":"Андреев Андрей Андреевич",
+  "gender":"male",
+  "birthdate":"1990-01-01",
+  "email":"some.email@gmail.com",
+  "email_verified":"True",
+  "phone_number":"+996000123456",
+  "phone_number_verified":"True"
+}

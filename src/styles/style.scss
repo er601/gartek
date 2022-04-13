@@ -1,0 +1,250 @@
+body {
+    background-color: #F0F2F5;
+}
+
+.adm-tab-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.add-editor .ck.ck-editor__editable_inline {
+    border: 1px solid #000;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.login-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 0 15px;
+
+    h3 {
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin: 15px 0;
+        color: #333;
+        // color: #1890ff;
+    }
+}
+
+.login {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    // border: 1px #ddd solid;
+    box-shadow: 1px 1px 10px #ddd;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.start {
+    //background-image: url(https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg);
+    ////background-repeat: no-repeat;
+    ////background-position: center 110px;
+    background-size: cover;
+}
+
+.ant-form-item {
+    margin-bottom: 10px;
+    &-label{
+        font-weight: 300;
+    }
+}
+
+.ant-divider-inner-text {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.ant-divider-horizontal {
+    margin: 10px 0;
+}
+
+.header {
+    background-color: #fff;
+    padding: 0;
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 2px 8px #e0e3e5;
+
+    .ant-menu-item {
+        border-right: 1px #eee solid;
+    }
+}
+
+.ant-card {
+    box-shadow: 0 2px 5px #e0e3e5;
+}
+
+.ant-form-item {
+    margin-bottom: 0 !important;
+}
+.ant-input:disabled  {
+    background: transparent;
+    font-weight: 500;
+    color: #000000;
+}
+
+.Select-placeholder {
+    color: #c4c4c4 !important;
+}
+
+.Select-control {
+    border: 1px solid #d9d9d9 !important;
+}
+
+.Select-menu-outer {
+    position: absolute;
+    z-index: 10000 !important;
+}
+
+.ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th {
+    padding: 2px 5px;
+}
+
+.ant-card {
+    .ant-card-type-inner {
+        box-shadow: none !important;
+    }
+}
+
+.side-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px #eeeeee solid;
+
+    i {
+        font-size: 10px;
+        color: #ccc;
+    }
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        background-color: #f1f1f1;
+    }
+
+    &:last-child {
+        border: none;
+    }
+}
+
+@media print {
+    .ant-modal{
+        width: initial;
+        transform-origin: initial;
+        padding-bottom: 0;
+        top: 0;
+    }
+    h3.ant-typography, .ant-typography h3{
+        font-size: 18px;
+    }
+    .ant-card-head-title{
+        padding: 8px 0;
+    }
+    .ant-card-body{
+        padding: 15px;
+    }
+}
+
+
+.titleCont{
+    text-align: center;
+}
+.text-contact{
+    margin-top: 100px;
+}
+
+.buttonAd{
+    float: right;
+}
+
+//.hamburger {
+//    display: none;
+//}
+//.hamburger .line {
+//
+//    width: 24px;
+//    height: 3px;
+//    background-color: #333333;
+//    display: block;
+//    margin:6px auto;
+//    -webkit-transition: all 0.3s ease-in-out;
+//    transition: all 0.3s ease-in-out;
+//    border-radius: 5px;
+//
+//}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media  (max-width: 768px) {
+
+    .ant-col{
+        margin-top: 25px;
+        width: 100%;
+
+    }
+    .ant-layout-content{
+        margin-top: 180px;
+    }
+    .ant-menu-item{
+        margin-top: 20px;
+    }
+    .ant-dropdown-trigger{
+        margin-left: 10px;
+    }
+    .ant-checkbox-wrapper{
+        margin-right: 84px;
+    }
+    .text-contact{
+        margin-top: 4px;
+    }
+    .ant-table-content{
+        font-size: 11px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .ant-typography text-center{
+        font-size: 30px;
+    }
+
+
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+
+

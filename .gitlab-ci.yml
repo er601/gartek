@@ -1,0 +1,24 @@
+stages:
+  - test
+  - deploy
+
+before_script:
+  - export PATH=/home/gitlab-runner/.nvm/versions/node/v14.18.1/bin:$PATH
+
+deploy_prod:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - gartek-prod
+  cache:
+    paths:
+      - node_modules/
+      - yarn.lock
+  script:
+    - yarn install
+    - yarn run build:prod
+    - cd dist
+    - rm report.html
+    - rm -rf /home/admin1/gartek-frontend/dist/*
+    - cp ./* -f -v -R /home/admin1/gartek-frontend/dist/

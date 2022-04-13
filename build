@@ -1,0 +1,2 @@
+docker-compose -f build.yml up
+docker-compose down
